@@ -80,7 +80,6 @@ int main(int argc, char *argv[]) {
             std::cout << "Password Generator by Fliese\n\n";
             std::cout << "Usage:\n";
             std::cout << "PGF.exe [-l|--length LENGTH] [-h|--help]\n" << std::endl;
-            std::cin.get();
             return 0;
         }
     }
@@ -95,6 +94,5 @@ int main(int argc, char *argv[]) {
     copyToClipboard(password);
 
     std::cout << "Password copied to clipboard." << std::endl;
-    std::cin.get();
     return 0;
 }
